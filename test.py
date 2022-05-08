@@ -21,7 +21,10 @@ class TestPrimeFactor(unittest.TestCase):
     self.assertListEqual(get_prime_factors(6), [2, 3])
 
   def test_prime_factor_of_7(self):
-    self.assertListEqual(get_prime_factors(7), [7])  
+    self.assertListEqual(get_prime_factors(7), [7])
+
+  def test_prime_factor_of_8(self):
+    self.assertListEqual(get_prime_factors(8), [2, 2, 2])   
 
 
 if __name__=='__main__':
