@@ -8,6 +8,9 @@ class TestPrimeFactor(unittest.TestCase):
   def test_prime_factor_of_2(self):
     self.assertListEqual(get_prime_factors(2), [2])
 
+  def test_prime_factor_of_3(self):
+    self.assertListEqual(get_prime_factors(3), [3])
+
 
 if __name__=='__main__':
   unittest.main()
